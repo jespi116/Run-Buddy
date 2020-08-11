@@ -12,3 +12,5 @@ https://jespi116.github.io/run-buddy/
 
 ## Contribution
 Made with ❤️ by Javier Espinosa
+
+# Run Buddy Inc.
