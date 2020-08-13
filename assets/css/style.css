@@ -457,6 +457,26 @@ section {
     .step-text {
         flex: 100%;
     }
+
+    .service-grid-container {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(5, 1fr) 2fr 1fr;
+    }
+
+    .service-grid-item.basic {
+        grid-column: 1/2;
+    }
+
+    .service-grid-item.both {
+        grid-column: 1/3;
+    }
+
+    .service-grid-item.cancel {
+        grid-column: 1/3;
+        grid-row: -1/-2;
+        writing-mode: horizontal-tb;
+        transform: none;
+    }
 }
 
 @media screen and (max-width: 575px) {
